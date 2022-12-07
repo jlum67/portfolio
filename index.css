@@ -34,7 +34,7 @@ h3 {
 }
 
 .title{
-    width: 1450px;
+    width: 1400px;
     height: 400px;
     margin: 45px;
     padding-top: 180px;
@@ -48,17 +48,40 @@ h3 {
     height: 500px; */
     margin: 30px;
     padding-top: 500px;
+    color: #6C969D;
+    margin-left: 150px;
     /* float:left; */
     /* margin-top: 700px; */
     /* position: absolute; */
     /* bottom: 0; */
 }
 
-/* Solid border */
-hr.solid {
-    border-top: 3px solid #bbb;
-    /* width: 400px; */
+.about-us:after 
+{
+    content:' ';
+    display:block;
+    border:1px solid #6C969D;
+    width: 700px;
 }
+
+.par {
+    /* width: 1450px;
+    height: 500px; */
+    margin: 30px;
+    color: white;
+    width: 500px;
+    margin-left: 150px;
+    /* font-family: 'Lora', serif; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Source Code Pro', monospace; */
+    /* padding-top: 500px; */
+    /* float:left; */
+    /* margin-top: 700px; */
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+
 
 /* .typewriter{
     margin: 0 auto;
