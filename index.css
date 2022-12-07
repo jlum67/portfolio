@@ -82,6 +82,119 @@ h3 {
 }
 
 
+.my-proj{
+    /* width: 1450px;
+    height: 500px; */
+    margin: 30px;
+    padding-top: 100px;
+    color: #6C969D;
+    margin-left: 150px;
+    /* float:left; */
+    /* margin-top: 700px; */
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+.my-proj:after 
+{
+    content:' ';
+    display:block;
+    border:1px solid #6C969D;
+    width: 700px;
+}
+
+.lovecast{
+    /* width: 1450px;
+    height: 500px; */
+    margin: 30px;
+    margin-top: 20px;
+    /* padding-top: 100px; */
+    color: #6C969D;
+    margin-left: 150px;
+    position: absolute; 
+    right: 10px;
+    /* float:left; */
+    /* margin-top: 700px; */
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+.lovecast_txt{
+    background-color: white;
+    margin-left: 150px;
+    width: 650px; 
+    position: absolute; 
+    /* bottom: 0; */
+    /* height: 100px;  */
+    margin-top: 150px;
+    box-shadow: 0px 8px 8px gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.responsive_txt{
+    background-color: white;
+    /* margin-left: 150px; */
+    width: 650px; 
+    position: absolute; 
+    right: 80px;
+    /* bottom: 0; */
+    /* height: 100px;  */
+    margin-top: 750px;
+    /* box-shadow: 2px 2px 2px gray; */
+    box-shadow: 0px 3px 8px gray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.it_title{
+    color: #6C969D;
+    margin-left: 50px;
+    margin-top: 40px;
+    /* padding-top: 20px; */
+    font-family: 'Poppins', sans-serif;
+    /* font-size: large; */
+}
+
+.it_txt{
+    color: black;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    /* padding-top: 20px; */
+    font-family: 'Poppins', sans-serif;
+    /* font-size: large; */
+}
+
+.see-more{
+    color: black;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    /* padding-top: 20px; */
+    font-family: 'Poppins', sans-serif;
+    /* font-size: large; */
+}
+
+.responsive{
+    /* width: 1450px;
+    height: 500px; */
+    margin: 30px;
+    margin-top: 20px;
+    /* padding-top: 100px; */
+    color: #6C969D;
+    margin-left: 150px;
+    position: absolute; 
+    margin-top: 650px;
+    /* left: 10px; */
+    /* float:left; */
+    /* margin-top: 700px; */
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+
+
+
+
 
 /* .typewriter{
     margin: 0 auto;
