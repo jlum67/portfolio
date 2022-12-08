@@ -21,6 +21,7 @@ h4 {
 h1 {
     color: white;
     font-size: x-large;
+    /* font-family: 'Courier Prime', monospace; */
 }
 
 h3 {
@@ -236,6 +237,27 @@ h3 {
     width: 0;
     animation: typing 6s forwards;
 } */
+
+
+.forest-background {
+    background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/579121/forest-background-opt.svg') no-repeat;
+    background-position: 0px 0px;
+      background-repeat: repeat-x;
+      animation: animatedBackground 12s linear infinite reverse;
+    /*bottom: 25%; */
+    height: 330px;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+    /* padding-top: 900px; */
+    bottom: 0;
+    margin-bottom: 0;
+  }
+
+  @keyframes animatedBackground {
+	from { background-position: 100% 0; }
+	to { background-position: 0 0; }
+}
 
 
 /* mountain code source: https://codepen.io/Christopherallen/pen/WNoLOB*/
