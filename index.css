@@ -75,6 +75,7 @@ h3 {
     /* font-family: 'Lora', serif; */
     font-family: 'Poppins', sans-serif;
     padding-bottom: 50px;
+    /* float: left; */
 
     /* font-family: 'Source Code Pro', monospace; */
     /* padding-top: 500px; */
@@ -82,6 +83,12 @@ h3 {
     /* margin-top: 700px; */
     /* position: absolute; */
     /* bottom: 0; */
+}
+
+.moji {
+    position: absolute;
+    right: 200px;
+    top: 1080px;
 }
 
 
@@ -225,53 +232,6 @@ h3 {
     /* bottom: 0; */
 }
 
-
-
-
-
-
-/* .typewriter{
-    margin: 0 auto;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: .17em solid white;
-    animation: typing 3.5s steps(30, end), blinking-cursor .5s step-end infinite;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-    to {
-      width: 100%
-    }
-  }
-  
-  @keyframes blinking-cursor {
-    from,
-    to {
-      border-color: transparent
-    }
-    50% {
-      border-color: white;
-    }
-  } */
-
-/* @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-
-.typed-out{
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    font-size: 1.6rem;
-    width: 0;
-    animation: typing 6s forwards;
-} */
-
-
 /* forest stuff https://codepen.io/semblance/pen/Yqadgx */
 .forest-background {
     background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/579121/forest-background-opt.svg') no-repeat;
@@ -292,7 +252,6 @@ h3 {
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
 }
-
 
 /* mountain code source: https://codepen.io/Christopherallen/pen/WNoLOB*/
 .mountain, .mountain-two, .mountain-three {
