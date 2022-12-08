@@ -197,6 +197,28 @@ h3 {
     /* font-size: large; */
 }
 
+.img_group {
+    margin-left: 50px;
+
+}
+
+.it_title2{
+    color: #0D1B1E;
+    margin-left: 50px;
+    margin-top: 40px;
+    /* padding-top: 20px; */
+    font-family: 'Poppins', sans-serif;
+    /* font-size: large; */
+}
+
+.it_title2:after 
+{
+    content:' ';
+    display:block;
+    border:1px solid #0D1B1E;
+    width: 700px;
+}
+
 .it_txt{
     color: black;
     margin-left: 50px;
@@ -205,6 +227,25 @@ h3 {
     /* padding-top: 20px; */
     font-family: 'Poppins', sans-serif;
     /* font-size: large; */
+}
+
+.it_txt2{
+    color: black;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    /* padding-top: 20px; */
+    font-family: 'Poppins', sans-serif;
+    /* font-size: large; */
+}
+
+.width_restrict {
+    width: 800px;
+    margin-top: 30px;
+}
+
+.marg {
+    margin-top: 30px;
 }
 
 .see-more{
@@ -250,6 +291,8 @@ h3 {
     margin-top: 1800px;
     /* margin-bottom: 100px; */
 }
+
+.carousel { width:640px; height:360px; }
 
 /* forest stuff https://codepen.io/semblance/pen/Yqadgx */
 .forest-background {
