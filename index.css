@@ -88,7 +88,7 @@ h3 {
 .moji {
     position: absolute;
     right: 200px;
-    top: 1080px;
+    top: 1120px;
 }
 
 
@@ -144,6 +144,7 @@ h3 {
     /* position: absolute; */
     /* bottom: 0; */
     margin-top: 1250px;
+    /* padding-bottom: 100px; */
 }
 
 .lovecast_txt{
@@ -168,7 +169,7 @@ h3 {
     /* bottom: 0; */
     /* height: 100px;  */
     margin-top: 750px;
-    /* box-shadow: 2px 2px 2px gray; */
+    box-shadow: 2px 2px 2px gray;
     box-shadow: -8px 8px 8px gray;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -339,6 +340,10 @@ h3 {
   left: 25px;
   top: -10px;
 }
+
+
+
+
 
 
 
