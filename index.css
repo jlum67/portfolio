@@ -34,6 +34,11 @@ h3 {
     /* color: gray; */
 }
 
+.list {
+    line-height: 200%;
+
+}
+
 .title{
     width: 1400px;
     height: 400px;
@@ -76,6 +81,7 @@ h3 {
     font-family: 'Poppins', sans-serif;
     padding-bottom: 50px;
     /* float: left; */
+    font-size: large;
 
     /* font-family: 'Source Code Pro', monospace; */
     /* padding-top: 500px; */
@@ -226,7 +232,20 @@ h3 {
     margin-right: 20px;
     /* padding-top: 20px; */
     font-family: 'Poppins', sans-serif;
-    /* font-size: large; */
+    font-size: large;
+    /* font-weight: bold; */
+}
+
+
+.inner_txt{
+    color: black;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    /* padding-top: 20px; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: large;
+    /* font-weight: bold; */
 }
 
 .it_txt2{
