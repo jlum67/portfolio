@@ -390,6 +390,11 @@ h3 {
     z-index: 1055;
   }
 
+  .close {
+    color: #fff !important; 
+    opacity: 1 !important;
+}
+
 
 
 
