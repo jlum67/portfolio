@@ -7,7 +7,7 @@
 }
 
 .user_test {
-    height: 60px;
+    height: 100px;
 }
 
 .navbar_h {
@@ -56,6 +56,7 @@ h3 {
 
 .list {
     line-height: 200%;
+    /* padding: 100px; */
 
 }
 
@@ -145,6 +146,22 @@ h3 {
     height: 500px; */
     margin: 30px;
     margin-top: 20px;
+    /* padding-top: 100px; */
+    color: #6C969D;
+    margin-right: 40px;
+    position: absolute; 
+    right: 10px;
+    /* float:left; */
+    /* margin-top: 700px; */
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+.lovecastc{
+    /* width: 1450px;
+    height: 500px; */
+    margin: 30px;
+    margin-top: 80px;
     /* padding-top: 100px; */
     color: #6C969D;
     margin-right: 40px;
@@ -314,7 +331,7 @@ h3 {
     color: #6C969D;
     /* color: white; */
     margin-left: 50px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     /* padding-top: 20px; */
     font-family: 'Poppins', sans-serif;
     /* font-size: large; */
@@ -332,7 +349,7 @@ h3 {
     color: #6C969D;
     /* color: white; */
     margin-left: 50px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     /* padding-top: 20px; */
     font-family: 'Poppins', sans-serif;
     /* font-size: large; */
