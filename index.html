@@ -20,11 +20,11 @@
   </head>
 
 
-  <body style="background-color:#0D1B1E">
+  <body class="body" style="background-color:#0D1B1E">
 
     
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar sticky-top navbar-expand-lg" style="background-color:#0D1B1E">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -139,7 +139,7 @@
         </div>
     </div>
 
-    <!-- modal for lovecasr -->
+    <!-- modal for lovecast -->
     <div class="modal fade right" id="lovecast_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
       <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
         <div class="modal-content-full-width modal-content ">
@@ -161,7 +161,10 @@
                     <a class="nav-link px-3" href="#">sketches</a>
                   </li>
                   <li class="nav-item pull-right">
-                    <a class="nav-link px-3" href="#">prototypes & critiques</a>
+                    <a class="nav-link px-3" href="#">critiques</a>
+                  </li>
+                  <li class="nav-item pull-right">
+                    <a class="nav-link px-3" href="#">prototype</a>
                   </li>
                   <li class="nav-item pull-right">
                     <a class="nav-link px-3" href="#">user testing</a>
@@ -180,9 +183,19 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body" style="background-color:#6C969D">
+          <div class="modal-body" style="background-color:white">
 
-            <h1 class="it_title"> Iterative Design | Lovecast </h1>
+            <div class="title2">
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <h1 class="inner_title"> Iterative Design | Lovecast </h1>
+            </div>
+
+            <br>
+
             <img class="lovecast" src="./lovecastc.png" height=500px width=700px class="rounded float-right" alt="">
 
             <h2 class="it_title2"><b>overview</b></h2>
@@ -215,9 +228,24 @@
               <img src="./lcsketch3.jpeg" height=500px width=350px alt="">
             </div>
 
-            <h2 class="it_title2"><b>prototypes & critiques</b></h2>
+            <h2 class="it_title3"><b>critiques</b></h2>
 
-            <p class="inner_txt marg">Based on our sketches, we created a high fidelity 
+            <p class="inner_txt space">Before finalizing our hi-fi prototype, we received and made revisions based on the following critiques from our peers:</p>
+
+            <ul class="inner_txt list">
+              <li>Increase the size of text, which could cause readibility issues for some users.</li>
+              <li>Increase the color contrast between the originally light pink button on top of the purple background.</li>
+              <li>Have the chat box in the livestream be collapsible.</li>
+              <li>Make the "Create Your Own Event" template stand out more.</li>
+              <li>Make the Pre-Stream Checklist icons more apparent that they are clickable.</li>
+              <li>Place the "Upload your own image" option before the built-in photos, since it makes more sense for users to add their own photos for personal events.</li>
+              <li>Include both a "Join" and "Details" button for events that are about to start, as opposed to just "Join."</li>
+              <li>Add clarity to the fact that more guests can be invited to an event.</li>
+            </ul>
+
+            <h2 class="it_title3"><b>prototype</b></h2>
+
+            <p class="inner_txt marg">Based on our sketches and the class critiques, we finalized a high fidelity 
               prototype. While prototyping, we also kept in mind Lovecast's stated mission and goals, 
               which we have listed below and described how we addressed them. </p>
 
@@ -236,26 +264,13 @@
                 </ul>
                 </ul>
 
-              <p class="inner_txt">Before finalizing our hi-fi prototype, we received and made revisions based on the following critiques from our peers:</p>
-
-              <ul class="inner_txt list">
-                <li>Increase the size of text, which could cause readibility issues for some users.</li>
-                <li>Increase the color contrast between the originally light pink button on top of the purple background.</li>
-                <li>Have the chat box in the livestream be collapsible.</li>
-                <li>Make the "Create Your Own Event" template stand out more.</li>
-                <li>Make the Pre-Stream Checklist icons more apparent that they are clickable.</li>
-                <li>Place the "Upload your own image" option before the built-in photos, since it makes more sense for users to add their own photos for personal events.</li>
-                <li>Include both a "Join" and "Details" button for events that are about to start, as opposed to just "Join."</li>
-                <li>Add clarity to the fact that more guests can be invited to an event.</li>
-              </ul>
-
               <p class="inner_txt">Here is our high-fidelity prototype, made in Figma. Hope you enjoy!</p>
 
               <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" class="inner_txt" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fet2UKgn8jVWPlAzlZ7aKa8%2FLoveCast-Design%3Fnode-id%3D15%253A6%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D15%253A6" allowfullscreen></iframe>
 
-              <h2 class="it_title2"><b>user testing</b></h2>
+              <h2 class="it_title3"><b>user testing</b></h2>
 
-              
+
 
 
 

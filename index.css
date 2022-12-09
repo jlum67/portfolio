@@ -1,3 +1,7 @@
+.body {
+    height: 490vh;
+}
+
 .navbar-nav.ml-auto a {
     color: white;
 }
@@ -161,7 +165,7 @@ h3 {
     /* bottom: 0; */
     /* height: 100px;  */
     margin-top: 150px;
-    box-shadow: 8px 8px 8px gray;
+    /* box-shadow: 8px 8px 8px gray; */
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -175,8 +179,8 @@ h3 {
     /* bottom: 0; */
     /* height: 100px;  */
     margin-top: 750px;
-    box-shadow: 2px 2px 2px gray;
-    box-shadow: -8px 8px 8px gray;
+    /* box-shadow: 2px 2px 2px gray;
+    box-shadow: -8px 8px 8px gray; */
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -189,7 +193,7 @@ h3 {
     /* bottom: 0; */
     /* height: 100px;  */
     margin-top: 1350px;
-    box-shadow: 8px 8px 8px gray;
+    /* box-shadow: 8px 8px 8px gray; */
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -203,13 +207,36 @@ h3 {
     /* font-size: large; */
 }
 
+.title2 {
+    background-color: #6C969D;
+    width: 100vw;
+    margin-left: -1em;
+    padding-left: 0px;
+    height: 300px;
+    margin-top: -1em;
+}
+
+
+.inner_title{
+    color: white;
+    /* margin-left: 50px; */
+    /* margin-top: 40px; */
+    /* padding-top: 20px; */
+    font-family: 'Poppins', sans-serif;
+    /* font-size: large; */
+    /* justify-content: center; */
+    text-align: center;
+}
+
 .img_group {
     margin-left: 50px;
 
 }
 
+
 .it_title2{
-    color: #0D1B1E;
+    color: #6C969D;
+    /* color: white; */
     margin-left: 50px;
     margin-top: 40px;
     /* padding-top: 20px; */
@@ -221,8 +248,26 @@ h3 {
 {
     content:' ';
     display:block;
-    border:1px solid #0D1B1E;
+    border:1px solid #6C969D;
     width: 700px;
+}
+
+.it_title3{
+    color: #6C969D;
+    /* color: white; */
+    margin-left: 50px;
+    margin-top: 40px;
+    /* padding-top: 20px; */
+    font-family: 'Poppins', sans-serif;
+    /* font-size: large; */
+}
+
+.it_title3:after 
+{
+    content:' ';
+    display:block;
+    border:1px solid #6C969D;
+    width: 1290px;
 }
 
 .it_txt{
@@ -238,7 +283,7 @@ h3 {
 
 
 .inner_txt{
-    color: black;
+    color: #0D1B1E;
     margin-left: 50px;
     margin-bottom: 30px;
     margin-right: 20px;
@@ -249,7 +294,7 @@ h3 {
 }
 
 .it_txt2{
-    color: black;
+    color: white;
     margin-left: 50px;
     margin-bottom: 30px;
     margin-right: 20px;
@@ -291,6 +336,11 @@ h3 {
     /* margin-top: 700px; */
     /* position: absolute; */
     /* bottom: 0; */
+}
+
+.space {
+    margin-top: 30px;
+
 }
 
 .spacer {
