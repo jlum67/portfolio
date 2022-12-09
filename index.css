@@ -6,10 +6,20 @@
     color: white;
 }
 
-.navbar {
+.user_test {
+    height: 60px;
+}
+
+.navbar_h {
     /* position: absolute;
     margin-top: 10px; */
     height: 80px;
+}
+
+.navbar_h2 {
+    /* position: absolute;
+    margin-top: 10px; */
+    height: 40px;
 }
 
 /* .triangle-bottomleft {
