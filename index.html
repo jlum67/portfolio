@@ -36,7 +36,7 @@
               <a class="nav-link px-3 link-1" href="#about">about me</a>
             </li>
             <li class="nav-item pull-right">
-              <a class="nav-link px-3 link-1" href="#">my projects</a>
+              <a class="nav-link px-3 link-1" href="#proj">my projects</a>
             </li>
             <li class="nav-item pull-right">
               <a class="nav-link px-3 link-1" href="#">contact me</a>
@@ -84,7 +84,9 @@
         <div class="cloud2"></div>
     </div>
 
-    <!-- about me section -->
+    <div class="user_test" id="about" ></div>
+
+    <!-- about me section -->    
     <div>
         <!-- <section id="Home">Home Section</section> -->
         <h1 class="display-4 about-us">about me</h1>
@@ -115,18 +117,26 @@
 
         </p>
 
-        <img class="moji" src="./moji.png" height=300px width=300px class="rounded float-left" alt=""> 
+        <div>
+          <img class="moji" src="./moji.png" height=300px width=300px class="rounded float-left" alt=""> 
+        </div>
 
         <div class="forest-background"></div>
 
     </div>
 
+    <br>
+    <br>
+
+    <div class="user_test" id="proj" ></div>
+
+    <!-- my projects section -->
     <div>
         <h1 class="display-4 my-proj">my projects</h1>
     </div>
 
     <!-- lovecast/iterative design -->
-    <div>
+    <div class="lovecast_wrap">
         <div class="lovecast">
             <img class="lovecast" src="./lovecast.png" height=500px width=700px class="rounded float-right" alt="">
         </div>
@@ -461,29 +471,29 @@
 
 
     <!-- responsive redesign -->
-    <div>
-        <div>
-            <img class="responsive" src="./responsive.png" height=500px width=820px class="rounded float-left" alt="">
+    
+    <div class="res_wrap">
+        <img class="responsive" src="./responsive.png" height=500px width=820px class="rounded float-left" alt="">
 
-            <div class="responsive_txt">
-                <h2 class="it_title">Responsive Redesign</h2>
-                <p class="it_txt">
-                  Redesigned an existing website to make it responsive to various screen sizes.
-                    <!-- Practiced the workflow of redesigning a website by
-                    analyzing and identifying flaws in an existing website,
-                    creating low-fidelity and high-fidelity prototypes for various screen sizes, 
-                    and building a responsive website.  -->
-                </p>
-                <button type="button" class="btn btn-outline-dark rounded-pill see-more">More details!</button>
-            </div>
+        <div class="responsive_txt">
+            <h2 class="it_title">Responsive Redesign</h2>
+            <p class="it_txt">
+              Redesigned an existing website to make it responsive to various screen sizes.
+                <!-- Practiced the workflow of redesigning a website by
+                analyzing and identifying flaws in an existing website,
+                creating low-fidelity and high-fidelity prototypes for various screen sizes, 
+                and building a responsive website.  -->
+            </p>
+            <button type="button" class="btn btn-outline-dark rounded-pill see-more">More details!</button>
         </div>
     </div>
+    
 
     <!-- personas and storyboarding -->
     <!-- https://www.figma.com/community/file/881830156311997001 -->
 
-    <div>
-      <div>
+    
+      <div class="pers_wrap">
           <img class="persona" src="./persona.png" height=500px width=700px class="rounded float-left" alt=""> 
 
           <div class="persona_txt">
@@ -495,14 +505,9 @@
               </p>
               <button type="button" class="btn btn-outline-dark rounded-pill see-more">More details!</button>
           </div>
-          <!-- <div class="spacer">
-
-            <h1>SPACER</h1>
-
-          </div> -->
       </div>
       
-  </div>
+  
 
 
   

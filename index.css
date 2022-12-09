@@ -73,9 +73,9 @@ h3 {
     /* width: 1450px;
     height: 500px; */
     margin: 30px;
-    padding-top: 500px;
+    /* padding-top: 500px; */
     color: #6C969D;
-    margin-left: 150px;
+    margin-left: 130px;
     /* float:left; */
     /* margin-top: 700px; */
     /* position: absolute; */
@@ -96,10 +96,10 @@ h3 {
     margin: 30px;
     color: white;
     width: 500px;
-    margin-left: 150px;
+    margin-left: 130px;
     /* font-family: 'Lora', serif; */
     font-family: 'Poppins', sans-serif;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     /* float: left; */
     font-size: large;
 
@@ -113,7 +113,7 @@ h3 {
 
 .moji {
     position: absolute;
-    right: 250px;
+    right: 270px;
     top: 1190px;
 }
 
@@ -122,9 +122,9 @@ h3 {
     /* width: 1450px;
     height: 500px; */
     margin: 30px;
-    padding-top: 100px;
+    /* padding-top: 100px; */
     color: #6C969D;
-    margin-left: 150px;
+    margin-left: 130px;
     /* float:left; */
     /* margin-top: 700px; */
     /* position: absolute; */
@@ -139,6 +139,7 @@ h3 {
     width: 1207px;
 }
 
+/* lovecast front page css */
 .lovecast{
     /* width: 1450px;
     height: 500px; */
@@ -146,7 +147,7 @@ h3 {
     margin-top: 20px;
     /* padding-top: 100px; */
     color: #6C969D;
-    margin-left: 150px;
+    margin-right: 40px;
     position: absolute; 
     right: 10px;
     /* float:left; */
@@ -155,27 +156,9 @@ h3 {
     /* bottom: 0; */
 }
 
-.persona {
-    /* width: 1450px;
-    height: 500px; */
-    margin: 30px;
-    margin-top: 20px;
-    /* padding-top: 100px; */
-    color: #6C969D;
-    margin-left: 150px;
-    position: absolute; 
-    right: 50px;
-    /* float:left; */
-    /* margin-top: 700px; */
-    /* position: absolute; */
-    /* bottom: 0; */
-    margin-top: 1250px;
-    /* margin-bottom: 100px; */
-}
-
 .lovecast_txt{
     background-color: #6C969D;
-    margin-left: 150px;
+    margin-left: 130px;
     width: 650px; 
     position: absolute; 
     /* bottom: 0; */
@@ -186,33 +169,110 @@ h3 {
     padding-bottom: 30px;
 }
 
+.lovecast_wrap {
+    height: 600px;
+    width: 1300px;
+}
+/* END lovecast front page css*/
+
+/* ---------------------------------------------------- */
+
+/* responsive front page css */
 .responsive_txt{
     background-color: #6C969D;
     /* margin-left: 150px; */
     width: 650px; 
     position: absolute; 
-    right: 80px;
+    right: 100px;
     /* bottom: 0; */
     /* height: 100px;  */
-    margin-top: 750px;
+    /* margin-top: 750px; */
     /* box-shadow: 2px 2px 2px gray;
     box-shadow: -8px 8px 8px gray; */
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-top: 100px;
 }
 
+.res_wrap {
+    height: 540px;
+    width: 1300px;
+}
+
+.responsive{
+    /* width: 1450px;
+    height: 500px; */
+    /* margin: 30px; */
+    /* margin-top: 20px; */
+    /* padding-top: 100px; */
+    color: #6C969D;
+    margin-left: 135px;
+    position: absolute; 
+    /* margin-top: 650px; */
+    /* left: 10px; */
+    /* float:left; */
+    /* margin-top: 700px; */
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+/* END responsive css */
+
+/* ---------------------------------------------------- */
+
+/* persona front page css */
 .persona_txt{
-    background-color: #6C969D;
+    /* background-color: #6C969D;
     margin-left: 150px;
+    width: 650px; 
+    position: absolute;  */
+    /* bottom: 0; */
+    /* height: 100px;  */
+    /* margin-top: 1350px; */
+    /* box-shadow: 8px 8px 8px gray; */
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+    background-color: #6C969D;
+    margin-left: 130px;
     width: 650px; 
     position: absolute; 
     /* bottom: 0; */
     /* height: 100px;  */
-    margin-top: 1350px;
+    margin-top: 130px;
     /* box-shadow: 8px 8px 8px gray; */
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+.pers_wrap {
+    height: 650px;
+    width: 1300px;
+}
+
+.persona {
+    margin: 30px;
+    margin-top: 20px;
+    /* padding-top: 100px; */
+    color: #6C969D;
+    margin-right: 68px;
+    position: absolute; 
+    right: 30px;
+    /* width: 1450px;
+    height: 500px; */
+    /* margin: 30px; */
+    /* margin-top: 20px; */
+    /* padding-top: 100px; */
+    /* color: #6C969D;
+    margin-left: 150px;
+    position: absolute; 
+    right: 50px; */
+    /* float:left; */
+    /* margin-top: 700px; */
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* margin-top: 1250px; */
+    /* margin-bottom: 100px; */
+}
+/* END persona front page css */
 
 .it_title{
     color: white;
@@ -333,23 +393,6 @@ h3 {
     /* font-size: large; */
 }
 
-.responsive{
-    /* width: 1450px;
-    height: 500px; */
-    margin: 30px;
-    margin-top: 20px;
-    /* padding-top: 100px; */
-    color: #6C969D;
-    margin-left: 150px;
-    position: absolute; 
-    margin-top: 650px;
-    /* left: 10px; */
-    /* float:left; */
-    /* margin-top: 700px; */
-    /* position: absolute; */
-    /* bottom: 0; */
-}
-
 .space {
     margin-top: 30px;
 
@@ -440,6 +483,10 @@ h3 {
   @keyframes animatedBackground {
 	from { background-position: 0 0; }
 	to { background-position: 100% 0; }
+}
+
+.bg {
+    height: 300px;
 }
 
 /* mountain code source: https://codepen.io/Christopherallen/pen/WNoLOB*/
