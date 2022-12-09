@@ -365,6 +365,26 @@ h3 {
 }
 
 
+.link-1 {
+    transition: 0.3s ease;
+    background: #0D1B1E;
+    color: #6C969D;
+    /* font-size: 20px; */
+    text-decoration: none;
+    border-top: 4px solid #0D1B1E;
+    border-bottom: 4px solid #0D1B1E;
+    padding: 20px 0;
+    margin: 0 20px;
+  }
+  .link-1:hover {
+    border-top: 4px solid #6C969D;
+    border-bottom: 4px solid #6C969D;
+    padding: 6px 0; 
+  }
+  
+  
+
+
 
 
 
