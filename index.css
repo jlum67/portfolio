@@ -14,6 +14,10 @@ html {
     height: 100px;
 }
 
+a {
+    margin-left: 50px;
+}
+
 .navbar_h {
     /* position: absolute;
     margin-top: 10px; */
@@ -383,6 +387,28 @@ h3 {
     color: #0D1B1E;
     margin-left: 50px;
     margin-bottom: 30px;
+    margin-right: 30px;
+    /* padding-top: 20px; */
+    /* font-family: 'Poppins', sans-serif; */
+    font-size: large;
+    /* font-weight: bold; */
+}
+
+.section {
+    margin-left: 50px;
+}
+
+embed {
+    /* margin-left: 50px; */
+    margin: auto;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.inner_txt_end{
+    color: #0D1B1E;
+    margin-left: 50px;
+    /* margin-bottom: 30px; */
     margin-right: 20px;
     /* padding-top: 20px; */
     /* font-family: 'Poppins', sans-serif; */
