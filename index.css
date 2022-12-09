@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .body {
     height: 490vh;
 }
@@ -623,6 +627,10 @@ h3 {
     background-color: inherit;
     z-index: 1055;
   }
+
+.modal {
+    scroll-behavior: smooth;
+}
 
   .close {
     color: #fff !important; 
