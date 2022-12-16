@@ -49,7 +49,7 @@
     <div>
         <div class="title">
             <h1 class="display-1">
-                Jeremy Lum
+                Chaotic Koala
             </h1>
             <h1 class="desc">
                 I'm a student at Brown University studying Computer Science + History.
@@ -90,7 +90,7 @@
     <div>
         <!-- <section id="Home">Home Section</section> -->
         <h1 class="display-4 about-us">about me</h1>
-        <p class="par">Hi, it's nice to meet you! My name is Jeremy, and I'm currently a sophomore at
+        <p class="par">Hi, it's nice to meet you! My name is Koala, and I'm currently a sophomore at
             Brown University studying Computer Science and History. My main interests
             are in full-stack development, UI/UX, and computer systems, but I'm still learning
             a lot about CS and discovering what my passions are! 
@@ -411,6 +411,8 @@
                 we received. We learned so much from this process, especially the importance of 
                 thoroughly testing a design and improving upon it. </p>
 
+                <div class="space_bottom"></div>
+
               <br>
           </div>
         </div>
@@ -460,13 +462,13 @@
                         <a class="nav-link px-3 link-1" href="#usability">identifying usability problems</a>
                       </li>
                       <li class="nav-item pull-right">
-                        <a class="nav-link px-3 link-1" href="#critique">visual redesign</a>
+                        <a class="nav-link px-3 link-1" href="#vd">visual redesign</a>
                       </li>
                       <li class="nav-item pull-right">
-                        <a class="nav-link px-3 link-1" href="#prototype">responsive redesign</a>
+                        <a class="nav-link px-3 link-1" href="#rr">responsive redesign</a>
                       </li>
                       <li class="nav-item pull-right">
-                        <a class="nav-link px-3 link-1" href="#conc">conclusion</a>
+                        <a class="nav-link px-3 link-1" href="#concl">conclusion</a>
                       </li>
                     </ul>
                   </div>
@@ -553,185 +555,184 @@
 
                 <p class="section" ><b>Accessibility:</b></p>
 
-                <p class="inner_txt">The webpage I chose to redesign is a Chinese government site that provides information about China's 
-                  governmental structure, government news & communications, and services/programs available to non-residents. 
+                <p class="inner_txt"> <a class="href" href="https://www.google.com/url?q=https%3A%2F%2Fwave.webaim.org%2F&sa=D">WebAIM WAVE</a> was used to detect possible accessibility problems with the site. 
+                  and my main takeaways from the evaluation were that:
                 </p>
 
+                <ul class="inner_txt list">
+                  <li>There was no heading structure.</li>
+                  <li>No page regions or ARIA landmarks were found. </li>
+                  <li>The language of the site was not identified with a lang attribute.</li>
+                  <li>Layout tables were used, which create reading and navigation order issues for screen readers. </li>
+                  <li>No alternative text was used for images, which makes them "invisible" to screen readers, and users when an image is unavailable. </li>
+                  <li>Low contrast between text and background. </li>
+                </ul>
 
+                <p class="inner_txt_end">I definitely agree with the problems detected, 
+                  particularly the issues with no heading structure and low text-background contrast. 
+                  In my initial analysis of the site, I could not recognize different sections of the page since 
+                  inconsistent headings, color, and fonts were used for content that should have the same hierarchy level. 
+                  In addition, I also found some text difficult to read due to the background color and lack of contrast. 
+                  The other accessibility problems that the evaluation found aren't visible upon looking at the site, 
+                  but I can understand why they create barriers to accessing information for screen readers.
 
+                </p>
 
-    
-    
-
-    
                   <!-- div offset -->
-                  <div class="user_test" id="critique" ></div>
+                  <div class="user_test" id="vd" ></div>
     
                 <!-- critiques -->
-                <h2 class="it_title3"><b>critiques</b></h2>
+                <h2 class="it_title3"><b>visual redesign</b></h2>
+
+                <p class="section space" ><b>Low-fidelity Wireframing:</b></p>
     
-                <p class="inner_txt space">Before finalizing our hi-fi prototype, we received and made revisions based on the following critiques from our peers:</p>
+                <p class="inner_txt">I created three wireframes —  one for each type of device (computer, 
+                  tablet, and phone). Each wireframe is annotated to demonstrate how my redesigned site 
+                  addresses the problems I found with the original. Note that many components from the 
+                  computer wireframe are duplicated, so annotations made in that wireframe apply to the others as well. 
+                </p>
+
+                <div id="accordion" class="accordion">
     
-                <ul class="inner_txt list">
-                  <li>Increase the size of text, which could cause readibility issues for some users.</li>
-                  <li>Increase the color contrast between the originally light pink button on top of the purple background.</li>
-                  <li>Have the chat box in the livestream be collapsible.</li>
-                  <li>Make the "Create Your Own Event" template stand out more.</li>
-                  <li>Make the Pre-Stream Checklist icons more apparent that they are clickable.</li>
-                  <li>Place the "Upload your own image" option before the built-in photos, since it makes more sense for users to add their own photos for personal events.</li>
-                  <li>Include both a "Join" and "Details" button for events that are about to start, as opposed to just "Join."</li>
-                  <li>Add clarity to the fact that more guests can be invited to an event.</li>
-                </ul>
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Wireframe for computers.
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                        <img src="./computer.png" height=700px width=1200px class="rounded center" alt="">
+                        
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Wireframe for tablets.
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                      <div class="card-body">
+                        <img src="./tablet.png" height=1200px width=1000px class="rounded center" alt="">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Wireframe for phones.
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                      <div class="card-body">
+                        <img src="./phone.png" height=700px width=1000px class="rounded center" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="section space" ><b>Visual Design Guide:</b></p>
+
+                <p class="inner_txt">The below visual design guide displays the main colors, 
+                  typography, and reusable components I use in my redesigned website. 
+                </p>
+
+                <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRRzUQfrZIxTMfpA2AlZwwpz84rr1fH3YhwXxT7VNmi-2eeOY3grXH_U__8k8bXBBjC1dr4JFaAcVLX/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="figma"></iframe>
+
+                <p class="section space" ><b>High-fidelity Prototyping:</b></p>
+
+                <p class="inner_txt">Based on my low-fidelity wireframes, I created 3 
+                  high-fidelity prototypes, one for each type of device (computer, tablet, and phone). 
+                  Each prototype is annotated with the different elements that a developer would need to 
+                  reproduce my website. Note that many components from the computer prototype are duplicated, 
+                  so annotations made in that prototype apply to the others as well. 
+                </p>
+
+                <p class="inner_txt">Before you view the link to my prototypes below, I have a few general 
+                  annotations to mention here that apply to my entire redesign. If you are familiar with
+                  bootstrap's heading library and grid system, then you can skip the collapsible component 
+                  below. If you aren't familiar (like I was before this project!), then please open the 
+                  collapsible component and keep reading. 
+                </p>
+
+                <div id="accordion" class="accordion">
     
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Information regarding Bootstrap's heading format and grid system.
+                        </button>
+                      </h5>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                      <div class="card-body">
+                          <p class="inner_txt">Most of my text is sized using bootstrap's heading library, 
+                            which has sizes h1 to h6 (h1 is largest, h6 is smallest).
+                          </p>
+                          <p class="inner_txt">In addition to divs, flex boxes, and floating elements, the responsiveness of my page to different devices is done 
+                            using the bootstrap grid system.  This grid system essentially divides the page into 12 columns. In my code, 
+                            I can define how many columns each section of my site takes up, and explicitly code how this should change 
+                            based on the screen size. I can also define the order of the divs based on the size of the screen. 
+                            For the grid system, I split my entire site into 2 sections/divs. One includes the News and Resources 
+                            components, and the other includes the Most Requested components.</p>
+                            <ul class="inner_txt list">
+                              <li>When the device being used is large (computers), I have the news/resources div take up 7 columns and the most requested div take up 5 columns.  I have the news/resources div come first (which is why it's on the left side for larger screens). </li>
+                              <li>When the device being used is medium-sized (tablets) or small (phones), I have the 
+                                news/resources div take up 12 columns and the most requested div take up 12 columns.  
+                                This basically means that they will be stacked on top of each other. 
+                                For medium and small screens, I have the most requested div come first (which is 
+                                why it appears on top in smaller screens). </li>
+                            </ul>
+                            <p class="inner_txt">For the bootstrap grid, my News and Resources div has the following code in its "class" field: col-sm-12 col-md-12 col-lg-7 order-sm-2 order-md-2 order-lg-1.
+                            </p>
+                            <p class="inner_txt">For the bootstrap grid, my Most Requested div has the following code in its "class" field: col-sm-12 col-md-12 col-lg-5 order-first order-md-1 order-lg-2.
+                            </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="inner_txt space">Here is my high fidelity prototyping and annotations in Figma:
+                </p>
+
+                <iframe class="figma" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fa3iFwrSeh4NRoYOdFXN0b3%2FAnnotated-HiFi-for-Submission%3Fnode-id%3D0%253A1%26t%3DRIV2KmlijBzMheuR-1" allowfullscreen></iframe>
+
                   <!-- div offset -->
-                  <div class="user_test" id="prototype" ></div>
+                  <div class="user_test" id="rr" ></div>
     
                 <!-- prototype -->
-                <h2 class="it_title3"><b>prototype</b></h2>
+                <h2 class="it_title3"><b>responsive redesign</b></h2>
     
-                <p class="inner_txt space">Based on our sketches and the class critiques, we finalized a high fidelity 
-                  prototype. While prototyping, we also kept in mind Lovecast's stated mission and goals, 
-                  which we have listed below and described how we addressed them. </p>
-    
-                   <ul class="inner_txt">
-                    <li><b>Goal #1: Host various events.</b></li>
-                    <ul>
-                      <li class="list">Addressed by: Having event templates on the home page to make creating events a seamless process for the user.</li>
-                    </ul>
-                    <li><b>Goal #2: Join events from around the world.</b></li>
-                    <ul>
-                      <li  class="list">Addressed by: A clearly laid out invitations page, and also featuring upcoming events on the home page for accessibility.</li>
-                    </ul>
-                    <li><b>Goal #3: Make events interactive for all participants.</b></li>
-                    <ul>
-                      <li>Addressed by: Livestream with chat box and emoticon reactions. We also considered the functionality of video streaming and included video settings, participant settings, etc.</li>
-                    </ul>
-                  </ul>
-    
-                  <p class="inner_txt">Here is our high-fidelity prototype, made in Figma. Hope you enjoy!</p>
-    
-                  <iframe class="figma" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1290" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fet2UKgn8jVWPlAzlZ7aKa8%2FLoveCast-Design%3Fnode-id%3D15%253A6%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D15%253A6" allowfullscreen></iframe>
+                <p class="inner_txt space"><a class="href" href="https://chaotickoala777.github.io/cs1300-responsive-redesign/">Here</a> is the link to my redesigned website! Hope you enjoy :) </p>
     
                   <!-- div offset -->
-                  <div class="user_test" id="user_test" ></div>
-    
-                  <!-- user testing -->
-                  <h2 class="it_title3"><b>user testing</b></h2>
-    
-                  <p class="inner_txt space"> After completing our high fidelity prototype, we went through a second round of feedback by 
-                    submitting our updated prototype to UserTesting, where 
-                    three testers would complete a task and provide 
-                    feedback on how the process went for them. </p>
-    
-                    <ul class="inner_txt">
-                      <li class="list"><b>Task #1: Start the tea party event.</b></li>
-                      <ul>
-                        <li> None of the three testers had trouble finding the "Start" 
-                          button and clicking the "Go Live" button. They all 
-                          rated the task as 5 (very easy). This was in line with 
-                          our expectations since we intentionally made the "Start" 
-                          button for the upcoming events green and right below the 
-                          event name so that it was easy for users to recognize 
-                          and find.</li>
-                      </ul>
-                      <li class="list"><b>Task #2: Check that the camera, audio, 
-                        and connection settings work.</b></li>
-                      <ul>
-                        <li>Users were able to successfully 
-                          open the popup for each setting and also all rated the 
-                          task as 5 (very easy). This matched our expectations 
-                          since we had icons as buttons that represented each 
-                          setting option, along with text labeling the setting 
-                          so users would have a smooth experience understanding 
-                          and adjusting the appropriate settings.</li>
-                      </ul>
-                      <li class="list"><b>Task #3: End the livestream.</b></li>
-                      <ul>
-                        <li>All users were able 
-                          to quickly find the "Exit Stream" button and leave the 
-                          page. All testers rated the task as 5 (very easy). This 
-                          aligned with our expectations because we made the 
-                          "Exit Stream" button red and at the top left of the screen, 
-                          where people generally expect quit buttons, so they can 
-                          easily exit the stream.</li>
-                      </ul>
-                    </ul>
-    
-                    <p class="inner_txt"> Based on our UserTesting results and 
-                      feedback, we wouldn't change much about our interface, 
-                      as all users gave positive feedback and didn't have any 
-                      struggles. There was no unexpected behavior.</p>
-    
-                    <p class="inner_txt"> Below are the UserTesting videos, which show the users' interactions with our prototype.</p>
-    
-                      <div id="accordion" class="accordion">
-    
-                        <div class="card">
-                          <div class="card-header" id="headingOne">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                                UserTesting Video #1
-                              </button>
-                            </h5>
-                          </div>
-                      
-                          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div class="card-body">
-                              <video controls>
-                                <source src="./test1.mov">
-                              </video>
-                            </div>
-                          </div>
-                        </div>
-    
-                        <div class="card">
-                          <div class="card-header" id="headingTwo">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                UserTesting Video #2
-                              </button>
-                            </h5>
-                          </div>
-                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <div class="card-body">
-                              <video controls>
-                                <source src="./test2.mov">
-                              </video>
-                            </div>
-                          </div>
-                        </div>
-    
-                        <div class="card">
-                          <div class="card-header" id="headingThree">
-                            <h5 class="mb-0">
-                              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                UserTesting Video #3
-                              </button>
-                            </h5>
-                          </div>
-                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                              <video controls>
-                                <source src="./test3.mov">
-                              </video>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-    
-                  <!-- div offset -->
-                  <div class="user_test" id="conc" ></div>
+                  <div class="user_test" id="concl" ></div>
     
                       <!-- conclusion and final thoughts -->
                   <h2 class="it_title3"><b>conclusion and final thoughts</b></h2>
     
-                  <p class="inner_txt space"> Designing the Lovecast app gave us the 
-                    opportunity to not only explore various design choices, but also 
-                    improve upon our first iteration of our prototype based on the feedback 
-                    we received. We learned so much from this process, especially the importance of 
-                    thoroughly testing a design and improving upon it. </p>
-    
-                  <br>
+                  <p class="inner_txt space"> This project was basically my first time creating a website from the design process 
+                    all the way to the coding process, and I really enjoyed it! I gained a lot of insight into not only 
+                    syntax conventions for HTML and CSS, but also learned about how to best utilize components such as flex box,
+                    media tags, and bootstrap grids. It was also interesting to see how the different parts of a website affect 
+                    accessibility. The most challenging part of this project was definitely making my site responsive, but I look 
+                    forward to using what I've learned to build more responsive websites! </p>
+
+                  <div class="space_bottom"></div>
+
               </div>
             </div>
           </div>

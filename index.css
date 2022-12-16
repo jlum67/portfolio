@@ -72,7 +72,7 @@ h3 {
     width: 1400px;
     height: 400px;
     margin: 45px;
-    padding-top: 180px;
+    padding-top: 110px;
     /* margin-top: 700px; */
     /* position: absolute; */
     /* bottom: 0; */
@@ -396,6 +396,7 @@ h3 {
 
 .section {
     margin-left: 50px;
+    font-size: larger;
 }
 
 embed {
@@ -442,6 +443,19 @@ embed {
 
 .space {
     margin-top: 30px;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  }
+
+.space_bottom {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
 
 }
 
@@ -493,6 +507,10 @@ embed {
     margin: auto;
     margin-left: 50px;
     margin-right: 20px;
+}
+
+.href {
+    margin: 0;
 }
   
 
