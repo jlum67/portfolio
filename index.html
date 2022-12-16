@@ -38,9 +38,9 @@
             <li class="nav-item pull-right">
               <a class="nav-link px-3 link-1" href="#proj">my projects</a>
             </li>
-            <li class="nav-item pull-right">
+            <!-- <li class="nav-item pull-right">
               <a class="nav-link px-3 link-1" href="#">contact me</a>
-            </li>
+            </li> -->
           </ul>
         </div>
     </nav>
@@ -753,9 +753,263 @@
                 <!-- Personas and storyboards are used within UX research to understand and create 
                 products for target audiences.  -->
               </p>
-              <button type="button" class="btn btn-outline-dark rounded-pill see-more">More details!</button>
+              <button type="button" class="btn btn-outline-dark rounded-pill see-more" data-toggle="modal" data-target="#story_modal">More details!</button>
           </div>
       </div>
+
+
+    <!-- modal for personas and storyboarding -->
+        <div class="modal fade right" id="story_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+          <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
+            <div class="modal-content-full-width modal-content ">
+              <div class=" modal-header-full-width   modal-header text-center modal-header--sticky" style="background-color: #0D1B1E">
+                <!-- <h5 class="modal-title" id="exampleModalPreviewLabel">Iterative Design &nbsp;&nbsp; | &nbsp;&nbsp; Lovecast</h5> -->
+    
+                <nav class="navbar navbar-expand-lg navbar_h2">
+    
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item pull-right">
+                        <a class="nav-link px-3 link-1" href="#overvi">overview</a>
+                      </li>
+                      <li class="nav-item pull-right">
+                        <a class="nav-link px-3 link-1" href="#prep">preparation</a>
+                      </li>
+                      <li class="nav-item pull-right">
+                        <a class="nav-link px-3 link-1" href="#ro">recording observations</a>
+                      </li>
+                      <li class="nav-item pull-right">
+                        <a class="nav-link px-3 link-1" href="#pers">personas</a>
+                      </li>
+                      <li class="nav-item pull-right">
+                        <a class="nav-link px-3 link-1" href="#story">storyboard</a>
+                      </li>
+                      <li class="nav-item pull-right">
+                        <a class="nav-link px-3 link-1" href="#conclu">conclusion</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+                
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body" style="background-color:white">
+    
+                <div class="title2">
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                  <h1 class="inner_title"> Personas and Storyboarding </h1>
+                </div>
+    
+                <br>
+    
+                <!-- <img class="lovecastc" src="./responsivec.png" height=500px width=600px class="rounded float-right" alt=""> -->
+    
+                  <!-- div offset -->
+                  <div class="user_test" id="overvi" ></div>
+    
+                <!-- overview -->
+                <h2 class="it_title3"><b>overview</b></h2>
+                  <p class="inner_txt space">The purpose of this project is to observe real users 
+                    interacting with an interface, interview these individuals about their 
+                    experiences, create personas based on these users, and illustrate a 
+                    storyboard for one of their personas. 
+                  </p>
+                  <p class="inner_txt">My chosen interface to examine is Brown's 
+                    <u>snack vending machines</u>. What are students' positive and negative 
+                    experiences with the vending machine interface, and why do they choose 
+                    to use them over nearby dining halls?
+                  </p>
+
+    
+                  <!-- div offset -->
+                  <div class="user_test" id="prep" ></div>
+    
+                <!-- sketches -->
+                <h2 class="it_title3"><b>preparation</b></h2>
+
+                <p class="section space" ><b>Prepared questions for users:</b></p>
+
+                <ul class="inner_txt list">
+                  <li>When you walk by the vending machine, do you stop to take a look at the selection of items? What do you do if you see something appealing? 
+                  </li>
+                  <li>What frustrations and challenges do you experience in the process of selecting a product from the vending machine? Is the interface easy to use and understand?
+                  </li>
+                  <li>What frustrations and challenges do you experience in the payment process of the vending machine? Is the interface easy to use and understand?
+                  </li>
+                  <li>What emotions or thoughts come to mind while you are in each step of the purchase process (deciding on food, selecting desired product, and paying)? 
+                  </li>
+                  <li>Are there any times where your experience with the vending machine deviated from your expected experience?  
+                  </li>
+                </ul>
+
+                <p class="section space" ><b>Interface:</b></p>
+
+                <img src="./interface.png" height=500px width=600px alt="" class="center">
+                <p class="inner_txt space">This is a sketch of the vending machine and its 
+                  payment/food selection interface. Users use the pin pad to select their desired 
+                  food item (which is labeled by number in the machine), and then swipe their card 
+                  (credit or Brown ID) or insert cash to pay. Each of the machine's key interactive 
+                  components are shown and described in the drawing. 
+                </p>
+
+                  <!-- div offset -->
+                  <div class="user_test" id="ro" ></div>
+    
+                <!-- critiques -->
+                <h2 class="it_title3"><b>recording observations</b></h2>
+
+                <p class="section space" ><b>Key Observations from Observing Users:</b></p>
+
+                <ul class="inner_txt list">
+                  <li>Some people glance at the machine as they walk by, or pause briefly to see the selection of items. 
+                  </li>
+                  <li>Other people approach the machine directly and scan through the rows and columns of items.
+                  </li>
+                  <li>If people are in a group, they point to different items. 
+                  </li>
+                  <li>While looking through the items, some users touched their chins or scratched their heads. 
+                  </li>
+                  <li>Nearly all users punched in numbers to see the cost of different items.
+                  </li>
+                  <li>Some users glanced behind themselves, and tapped their feet while their payment was processing especially if there was someone behind them waiting to use the machine.
+                  </li>
+                  <li>All users either used their Brown ID or credit card.
+                  </li>
+                </ul>
+
+                <p class="section space" ><b>Summary of User Interview Responses:</b></p>
+
+                <ul class="inner_txt list">
+                  <li>Vending machine takes more money than is necessary for the desired product, and sometimes "eats" your money if your product gets stuck in the dispensing process.
+                  </li>
+                  <li>Needing to use the pin pad to figure out the cost for every item is tedious. It would be nice if prices for all items were visible at once. 
+                  </li>
+                  <li>Card swipe takes a long time to process, and it is also frustrating that people can take money from your card if you forget to press "done" after purchasing your item. 
+                  </li>
+                  <li>The selection of items rotates frequently, so there is no for sure way to know what items will be available. 
+                  </li>
+                  <li>Nutritional facts and calories of products are not always visible. 
+                  </li>
+                </ul>
+    
+                  <!-- div offset -->
+                  <div class="user_test" id="pers" ></div>
+    
+                <!-- prototype -->
+                <h2 class="it_title3"><b>personas</b></h2>
+
+                <p class="inner_txt space">In this section, I develop personas for two users based on 
+                  my previous observations and interviews. But, what exactly is a persona? 
+                  Personas are used to represent overarching trends observed in users, 
+                  and each persona represents one archetypal character on the spectrum of users.  
+                  We achieve this by describing what users think, feel, say, and do. </p>
+
+                  <img src="./ben.jpg" height=500px width=620px alt="" class="pers">
+
+                  <br>
+                  <br>
+
+                  <p class="section space" ><b>Busy Benjamin:</b></p>
+
+                  <p class="inner_txt"><u>Ben is a premed student at Brown struggling to manage his heavy course load in chemistry and biology classes, while also being involved in lab research and pre-professional clubs.</u> </p>
+    
+    
+                  <p class="inner_txt ">Ben represents vending machine users who are in a rush and, 
+                    upon passing a vending machine, decide to get a quick snack to sustain themselves. His 
+                    course load and struggles with procrastination lead him to complete assignments right 
+                    before they are due, so he lacks time to walk to a dining hall before his next commitment. 
+                    His interface problems mainly revolve around the payment system. He is frustrated by the 
+                    long delay after swiping his card and the need to press "complete" to ensure someone else 
+                    doesn't use his flex points. All of this is especially more frustrating since he uses 
+                    vending machines when in a rush.  </p>
+
+                  <br>
+                  <br>
+
+
+
+                  <br>
+
+                  <div class="ava">
+                  <p class="section space" ><b>Athlete Ava:</b></p>
+
+                  <p class="inner_txt"><u>Ava is a student-athlete at Brown studying cognitive science. </u> </p>
+    
+    
+                  <p class="inner_txt ">She represents consistent vending machine users who make intentional 
+                    trips to purchase food (rather than walking by and then deciding to purchase something) 
+                    and rely on vending machines for nighttime snacks. As a student-athlete, Ava requires
+                     protein snacks after her practices, but her practices end late at night so none of her 
+                     nearby dining halls are open. Vending machines meet this gap for her. Since Ava is a 
+                     consistent user, she has more experience with the frustrations of using the vending machine, 
+                     and the lower-probability events of payment not working or food getting stuck are more 
+                     familiar to her . Her interface problems include:  </p>
+
+                     <ul class="inner_txt list">
+                      <li>The inconsistency of vending machine selections, leading her to be unable to anticipate if her desired items are available. 
+                      </li>
+                      <li>The inability to see the nutritional contents of the food she's eating, which is important to her since she frequently exercises and needs to properly recuperate. 
+                      </li>
+                      <li>Flex points sometimes not being accepted. However, since she relies on the vending machine, she has no choice but to use a credit card (which also represents another group of users). 
+                      </li>
+                    </ul>
+                  </div>
+
+                    <img src="./ava.jpg" height=500px width=620px alt="">
+
+                    <ul class="inner_txt list">
+                      <li>The length/delayed response of the payment system, and the anxiety that comes when other people also have to use the machine. 
+                      </li>
+                      <li>The annoyance of having to punch in every item's number to see the price. 
+                      </li>
+                      <li>Food getting stuck.</li>
+                    </ul>
+
+
+
+
+                  <!-- div offset -->
+                  <div class="user_test" id="story" ></div>
+    
+                      <!-- conclusion and final thoughts -->
+                  <h2 class="it_title3"><b>storyboard for busy benjamin</b></h2>
+    
+                  <p class="inner_txt space"> Storyboards use images and brief descriptions to 
+                    reflect the goals of a user persona and include all necessary steps for using an interface. </p>
+
+
+                    <iframe class="figma" src="https://docs.google.com/presentation/d/e/2PACX-1vTmipDe-LAPuL7FB2j90YvnZdfL78_28FwhPf7wB3ntyg2N6sULM_jkZLQIun7VJZEnRUGmtYvn9RHD/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+                  <!-- div offset -->
+                  <div class="user_test" id="conclu" ></div>
+
+                  <!-- conclusion and final thoughts -->
+              <h2 class="it_title3"><b>conclusion and final thoughts</b></h2>
+
+              <p class="inner_txt space"> Working on this project was super interesting, as 
+                I gained more insight into how to effectively perform user interviews as well as 
+                visually represent my user research and observations! Generally, I think people 
+                find that the vending machine interface makes sense and matches the users' 
+                mental model. However, there are different aspects of the process that could be 
+                smoothened and made more efficient to increase overall user satisfaction. </p>
+
+
+                  <div class="space_bottom"></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
       
   
 

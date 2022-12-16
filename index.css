@@ -273,6 +273,19 @@ h3 {
     width: 1300px;
 }
 
+.ava {
+    float: left;
+    /* margin-left: 50px; */
+    margin-right: 20px;
+    width: 700px;
+}
+
+.pers {
+    float: left;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
 .persona {
     margin: 30px;
     margin-top: 20px;
