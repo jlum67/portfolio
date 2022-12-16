@@ -219,8 +219,36 @@ h3 {
     margin-top: 100px;
 }
 
+.ab_txt{
+    background-color: #6C969D;
+    /* margin-left: 150px; */
+    width: 650px; 
+    position: absolute; 
+    right: 100px;
+    /* bottom: 0; */
+    /* height: 100px;  */
+    /* margin-top: 750px; */
+    /* box-shadow: 2px 2px 2px gray;
+    box-shadow: -8px 8px 8px gray; */
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+}
+
 .res_wrap {
     height: 540px;
+    width: 1300px;
+}
+
+.bake {
+    padding-left: 50px;
+    margin-left: 50px;
+
+    float: left;
+}
+
+.ab_wrap {
+    height: 550px;
     width: 1300px;
 }
 
@@ -269,7 +297,7 @@ h3 {
 }
 
 .pers_wrap {
-    height: 650px;
+    height: 590px;
     width: 1300px;
 }
 

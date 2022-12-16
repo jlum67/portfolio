@@ -16,7 +16,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Portfolio</title>
+    <title>Koala's Portfolio</title>
   </head>
 
 
@@ -1010,6 +1010,182 @@
             </div>
           </div>
         </div>
+
+
+        <!-- ab testing -->
+
+        <div class="ab_wrap">
+          <img class="responsive" src="./ab.png" height=420px width=820px class="rounded float-left" alt="">
+  
+          <div class="ab_txt">
+              <h2 class="it_title">A/B Testing and Eye Tracking</h2>
+              <p class="it_txt">
+                Designed a prototype and analyzed user behavior through eye tracking and heatmap generation.
+                  <!-- Practiced the workflow of redesigning a website by
+                  analyzing and identifying flaws in an existing website,
+                  creating low-fidelity and high-fidelity prototypes for various screen sizes, 
+                  and building a responsive website.  -->
+              </p>
+              <!-- <button type="button" class="btn btn-outline-dark rounded-pill see-more">More details!</button> -->
+              <button type="button" class="btn btn-outline-dark rounded-pill see-more" data-toggle="modal" data-target="#ab_modal">More details!</button>
+  
+          </div>
+      </div>
+  
+          <!-- modal for responsive redesign -->
+          <div class="modal fade right" id="ab_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" aria-hidden="true">
+            <div class="modal-dialog-full-width modal-dialog momodel modal-fluid" role="document">
+              <div class="modal-content-full-width modal-content ">
+                <div class=" modal-header-full-width   modal-header text-center modal-header--sticky" style="background-color: #0D1B1E">
+                  <!-- <h5 class="modal-title" id="exampleModalPreviewLabel">Iterative Design &nbsp;&nbsp; | &nbsp;&nbsp; Lovecast</h5> -->
+      
+                  <nav class="navbar navbar-expand-lg navbar_h2">
+      
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item pull-right">
+                          <a class="nav-link px-3 link-1" href="#overview">overview</a>
+                        </li>
+                        <li class="nav-item pull-right">
+                          <a class="nav-link px-3 link-1" href="#protoh">prototyping and hypothesis</a>
+                        </li>
+                        <li class="nav-item pull-right">
+                          <a class="nav-link px-3 link-1" href="#et">eye tracking</a>
+                        </li>
+                        <li class="nav-item pull-right">
+                          <a class="nav-link px-3 link-1" href="#conclus">conclusions</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                  
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body" style="background-color:white">
+      
+                  <div class="title2">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h1 class="inner_title"> A/B Testing and Eye Tracking </h1>
+                  </div>
+      
+                  <br>
+      
+                  <!-- <img class="lovecastc" src="./responsivec.png" height=500px width=600px class="rounded float-right" alt=""> -->
+      
+                    <!-- div offset -->
+                    <div class="user_test" id="overview" ></div>
+      
+                  <!-- overview -->
+                  <h2 class="it_title3"><b>overview</b></h2>
+                  
+                    <p class="inner_txt space">The purpose of this project was to explore eye tracking, a common form of evaluating the performance of a page.
+                      Eye tracking provides valuable qualitative data for improving usability and increasing how efficiently our site guides users.
+                    </p>
+                    <p class="inner_txt">This project included the following components:
+                    </p>
+                    <ul class="inner_txt list">
+                      <li>Develop two different prototypes of a bakery site. 
+                      </li>
+                      <li>Ideate a hypothesis based on the two different prototypes. How will their differences affect where a user’s eyes are drawn? 
+                      </li>
+                      <li>Conduct eye tracking tests with test participants.</li>
+                      <li>Based on the eye tracking tests, generate heatmaps (a still image that depicts where participants’ gazes were fixed).</li>
+                      <li>Interpret the results of the eye tracking and heatmap generation. Did our results match our initial hypothesis?
+                      </li>
+                    </ul>
+
+      
+                    <!-- div offset -->
+                    <div class="user_test" id="protoh" ></div>
+      
+                  <!-- sketches -->
+                  <h2 class="it_title3"><b>prototyping and hypothesis</b></h2>
+  
+                  
+                    <p class="inner_txt space">Here are the two different designs we came up with for our bakery website.
+                    </p>
+
+                    <img src="./bake1.jpg" height=375px width=700px class="rounded center bake" alt="">
+                    <img src="./bake2.jpg" height=375px width=650px class="rounded center" alt="">
+                  
+                  <p class="section space" ><b>Our Hypothesis:</b></p>
+
+                  <p class="inner_txt space">We hypothesize that in both of our versions, 
+                    a user’s eyes will scan left to right because we have created separate 
+                    rows for pastries, cakes, and drinks that are each different colors.
+                  </p>
+
+                  <p class="inner_txt space">
+                    For the prototype on the left, we hypothesize that users 
+                    will look toward the quantity buttons and shopping cart icon, in 
+                    order to determine how many items are in their carts.
+                    And, for the prototype on the right, we hypothesize that users will 
+                    be drawn to look toward the shopping cart.
+                  </p>
+      
+                    <!-- div offset -->
+                    <div class="user_test" id="et" ></div>
+      
+                  <!-- critiques -->
+                  <h2 class="it_title3"><b>eye tracking</b></h2>
+        
+                  <p class="inner_txt space">
+                    After developing our prototypes, we found two random test
+                    participants to try out our prototypes. They were given the task
+                    of browsing through the items, adding to the cart, and checking out.
+                  </p>
+
+                  <p class="inner_txt">
+                    Using eye tracking technology from Brown University's Human-Computer Interaction Research
+                    lab, we gathered qualitative data which showed us where on our prototypes users' eyes
+                    were drawn to. This data allows us to create heatmaps and map out their gaze motion.
+                  </p>
+
+                  <p class="section" ><b>Heatmap and Gaze Motion for Prototype 1:</b></p>
+
+                  <img src="./Heatmap1.png" height=375px width=670px class="rounded center bake" alt="">
+                  <img src="./End1.png" height=375px width=670px class="rounded center" alt="">
+
+
+                  <p class="section space" ><b>Heatmap and Gaze Motion for Prototype 2:</b></p>
+
+                  <img src="./Heatmap2.png" height=375px width=690px class="rounded center bake" alt="">
+                  <img src="./end2.png" height=375px width=660px class="rounded center" alt="">
+      
+                    <!-- div offset -->
+                    <div class="user_test" id="conclus" ></div>
+      
+                  <!-- prototype -->
+                  <h2 class="it_title3"><b>conclusions</b></h2>
+            
+                    <p class="inner_txt space"> For prototype 1, our results mostly matched our expectations, as 
+                      it showed that the user looked at the shopping cart icon and the quantity buttons 
+                      often, and also the user’s eyes scanned left to right in the way we hypothesized 
+                      (but then became a little more scattered halfway through the scan, not as much as in 
+                      prototype 2 though). </p>
+
+                      <p class="inner_txt space"> For prototype 2, our results did 
+                        not match our expectations, as it showed that the user barely looked at 
+                        the shopping cart (probably because it’s not interactive and nothing in 
+                        the cart updated) and they also did not look at the selections in an orderly 
+                        fashion: they jumped from middle to top to bottom randomly.  </p>
+  
+                    <div class="space_bottom"></div>
+  
+                </div>
+              </div>
+            </div>
+          </div>
       
   
 
